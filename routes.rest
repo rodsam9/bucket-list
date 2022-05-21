@@ -19,3 +19,26 @@ content-type: application/json
 
 ###DELETE
 DELETE http://localhost:3000/contact/62893fb101217c77c6e6aef4 HTTP/1.1
+
+
+### GET
+https://cse341-bucket.herokuapp.com/contact
+
+
+###POST
+POST https://cse341-bucket.herokuapp.com/contact HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Lucas",
+    "lastName": "Ramos",
+    "email": "lucasboy@gmail.com",
+    "age": "15",
+    "birthday": "01/12/99",
+    "hobbies": "skiing, football",
+    "fears": "insects"
+  }
+
+
+###DELETE
+DELETE https://cse341-bucket.herokuapp.com/contact/6289421a154d60b69642fc7f HTTP/1.1
