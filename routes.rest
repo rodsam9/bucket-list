@@ -1,0 +1,21 @@
+
+###GET
+http://localhost:3000/contact/
+
+
+###POST
+POST http://localhost:3000/contact HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Lucas",
+    "lastName": "Ramos",
+    "email": "lucasboy@gmail.com",
+    "age": "15",
+    "birthday": "01/12/99",
+    "hobbies": "skiing, football",
+    "fears": "insects"
+  }
+
+###DELETE
+DELETE http://localhost:3000/contact/62893fb101217c77c6e6aef4 HTTP/1.1

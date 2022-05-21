@@ -1,0 +1,29 @@
+{
+    "contact": {
+        "firstName": "Josh",
+        "lastName": "Rodriguez",
+        "email": "joshboy@gmail.com",
+        "age": "22",
+        "birthday": "10/11/95",
+        "hobbies": "snowboarding, basketball",
+        "fears": "drowning"
+    },
+    "contact2": {
+        "firstName": "Johnny",
+        "lastName": "Villanueva",
+        "email": "jvillanueva@yahoo.com",
+        "age": "25",
+        "birthday": "01/15/95",
+        "hobbies": "puzzles, swimming",
+        "fears": "snakes"
+    },
+    "contact3": {
+        "firstName": "Lehi",
+        "lastName": "Ramirez",
+        "email": "ramirez_lehi@gmail.com",
+        "age": "18",
+        "birthday": "07/3/98",
+        "hobbies": "bicycling, hiking",
+        "fears": "heights"
+    }
+}

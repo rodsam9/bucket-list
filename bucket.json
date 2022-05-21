@@ -1,0 +1,20 @@
+{
+    "activity": {
+        "name": "Skydiving",
+        "location": "Dallas, TX",
+        "price": "$200",
+        "date": "11/15/22"
+    },
+    "activity2": {
+        "name": "Ziplining",
+        "location": "Orocovis, Puerto Rico",
+        "price": "$350",
+        "date": "03/24/24"
+    },
+    "activity3": {
+        "name": "Paintballing",
+        "location": "Chicago, Illinois",
+        "price": "$25",
+        "date": "07/18/22"
+    }
+}
