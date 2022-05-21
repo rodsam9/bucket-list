@@ -1,0 +1,19 @@
+{
+  "name": "cse341-personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodsam9/bucket-list.git"
+  },
+  "author": "Sam Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodsam9/bucket-list/issues"
+  },
+  "homepage": "https://github.com/rodsam9/bucket-list#readme"
+}
