@@ -17,8 +17,22 @@ content-type: application/json
     "fears": "insects"
   }
 
+###PUT
+PUT http://localhost:3000/contact/62917b36139c12da3c4d545d HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Lucas",
+    "lastName": "Ramos",
+    "email": "oldboy@gmail.com",
+    "age": "20",
+    "birthday": "01/12/02",
+    "hobbies": "skiing, football",
+    "fears": "insects"
+  }
+
 ###DELETE
-DELETE http://localhost:3000/contact/62893fb101217c77c6e6aef4 HTTP/1.1
+DELETE http://localhost:3000/contact/6289421a154d60b69642fc7f HTTP/1.1
 
 
 ### GET
@@ -38,7 +52,19 @@ content-type: application/json
     "hobbies": "skiing, football",
     "fears": "insects"
   }
+###PUT
+PUT https://cse341-bucket.herokuapp.com/contact/6289421a154d60b69642fc7f HTTP/1.1
+content-type: application/json
 
+{
+    "firstName": "Lucas",
+    "lastName": "Ramos",
+    "email": "lucasboy@gmail.com",
+    "age": "20",
+    "birthday": "01/12/01",
+    "hobbies": "skiing, football",
+    "fears": "insects"
+  }
 
 ###DELETE
 DELETE https://cse341-bucket.herokuapp.com/contact/6289421a154d60b69642fc7f HTTP/1.1
