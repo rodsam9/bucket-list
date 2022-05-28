@@ -53,18 +53,18 @@ content-type: application/json
     "fears": "insects"
   }
 ###PUT
-PUT https://cse341-bucket.herokuapp.com/contact/6289421a154d60b69642fc7f HTTP/1.1
+PUT https://cse341-bucket.herokuapp.com/contact/62917b36139c12da3c4d545d HTTP/1.1
 content-type: application/json
 
 {
     "firstName": "Lucas",
     "lastName": "Ramos",
     "email": "lucasboy@gmail.com",
-    "age": "20",
+    "age": "22",
     "birthday": "01/12/01",
     "hobbies": "skiing, football",
     "fears": "insects"
   }
 
 ###DELETE
-DELETE https://cse341-bucket.herokuapp.com/contact/6289421a154d60b69642fc7f HTTP/1.1
+DELETE https://cse341-bucket.herokuapp.com/contact/62917b36139c12da3c4d545d HTTP/1.1
