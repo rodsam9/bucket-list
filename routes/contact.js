@@ -3,6 +3,8 @@ const connect = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 const validation = require('../middleware/validate');
 
+const userStory = require('../models/userStory');
+
 routes.get('/', (req, res) => {
     const results = connect.getCollection().find();
 
